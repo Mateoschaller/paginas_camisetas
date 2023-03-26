@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="icon" href="icono.ico"/>
+        <title>Camisetas Mateo</title>
+        <link rel="stylesheet" href="princ.css"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <meta name="author" content="Mateo schaller"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="contenedorPadre">
+            <div class="contenedorMenu">
+               <nav class="navbar">
+                <img class="logo-menu" src="icono.ico"/>
+      <button onclick="toggleMenu()" class="burger"></button>
+      <div class="dropdowns">
+        <div class="dropdown">
+          <button class="bot-menu">
+            Categoria
+            <img class="img-menu" src="chevron.svg" />
+          </button>
+          <div class="dropdown-menu">
+            <div>
+                <h2 class="h2">MARCA</h2>
+              <button class="bot-menu">Nike</button>
+              <button class="bot-menu">Adidas</button>
+              <button class="bot-menu"></button>
+              <button class="bot-menu"></button>
+              <button class="bot-menu"></button>
+            </div>
+            <div>
+                <h2 class="h2">PAIS</h2>
+              <button class="bot-menu">Argentina</button>
+              <button class="bot-menu">España</button>
+              <button class="bot-menu">Inglaterra</button>
+              <button class="bot-menu">Francia</button>
+              <button class="bot-menu">Selecciones</button>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="bot-menu">
+            Contactanos
+            <img class="img-menu" src="chevron.svg" />
+          </button>
+          <div class="dropdown-menu">
+            <div>
+              <button class="bot-menu">Instagram</button>
+              <button class="bot-menu">Gmail</button>
+              <button class="bot-menu">WhatsApp</button>
+            </div>
+          </div>
+        </div>
+        <form class="from">
+            <input type="search" placeholder="Buscar..." class="buscador-gen">
+            <button class="btn-b">BUSCAR</button>
+        </form>
+      </div>
+    </nav>
+            </div>
+            <div class="fondo">
+                <img class="img-fon" src="fondo2.png"/>
+            </div>
+            <div class="catalogo">
+                <h1 class="h1">PRODUCTOS</h1>
+                <div class="buscador">
+                    <div class="busca">
+                        <button type="button" class="btn-cat">Categoria</button>
+                        <button type="button" class="btn-cat">Marca</button>
+                        <button type="button" class="btn-cat">Pais</button>
+                        <button type="button" class="btn-cat">Talle</button>
+                        <button type="button" class="btn-cat buscar">BUSCAR</button>
+                    </div>
+                    <div class="camisetas-t">
+                    <div class="productos">
+                        <div class="producto">
+                            <a href="independiente.html">
+                                <img src="fotos/independiente-cam.png" class="camiseta"/>
+
+                            </a>
+                            <div class="text">
+                                <a href="independiente.html">
+                                    <p class="p-cam">Camiseta de Independiente 2023</p>
+                                    <div class="ver">
+                                        <p class="p-cam precio">$ 23.000</p>
+                                        <button class="ver-p">VER</button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="productos">
+                        <div class="producto">
+                            <a href="">
+                                <img src="fotos/boca-cam.png" class="camiseta" />
+                            </a>
+                            <div class="text">
+                                <a href="">
+                                    <p class="p-cam">Camiseta de Boca 2023</p>
+                                    <div class="ver">
+                                        <p class="p-cam precio">$ 28.000</p>
+                                        <button class="ver-p">VER</button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productos">
+                        <div class="producto">
+                            <a href="">
+                                <img src="fotos/river-cam.png" class="camiseta" />
+                            </a>
+                            <div class="text">
+                                <a href="">
+                                    <p class="p-cam">Camiseta de River 2023</p>
+                                    <div class="ver">
+                                        <p class="p-cam precio">$ 24.000</p>
+                                        <button class="ver-p">VER</button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            
+
+
+
+
+    <script src="javas.js"></script>
+    <script>
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+        <footer>
+            <p class="f-p">Creado por Mateo Schaller Francih - 2023</p>
+            <a href="https://portafoliomateo.netlify.app/">Portafolio</a>
+        </footer>
+        </div>
+    </body>
+</html>
